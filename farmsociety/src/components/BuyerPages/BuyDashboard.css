@@ -1,0 +1,103 @@
+/* Styles for desktop and larger screens */
+.buy-dashboard-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f3f8;
+  height: 100vh;
+  padding: 20px;
+}
+
+.rf {
+  width: 300px;
+  height: 600px;
+  position: absolute;
+  right: 0;
+  top: 146px;
+}
+
+.lf {
+  width: 300px;
+  height: 600px;
+  position: absolute;
+  left: 0;
+  top: 146px;
+}
+
+.main-content {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.side-images {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.side-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.tabs {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.tabs button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+.tabs button.active {
+  background-color: #2980b9;
+}
+
+.main-content {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive styles for mobile view */
+@media (max-width: 768px) {
+  .buy-dashboard-container {
+      padding: 10px;
+  }
+
+  .rf,
+  .lf {
+      width: 100%;
+      position: relative;
+      top: 0;
+      left: 0;
+      margin-bottom: 20px;
+  }
+
+  .main-content {
+      margin-left: 0;
+      margin-right: 0;
+  }
+
+  .tabs {
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+      justify-content: flex-start;
+  }
+
+  .tabs button {
+      margin-right: 0;
+      margin-bottom: 10px;
+  }
+}

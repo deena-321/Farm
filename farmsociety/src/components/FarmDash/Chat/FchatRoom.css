@@ -1,0 +1,60 @@
+/* FchatRoom.css */
+
+.fchat-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.fchat-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #4CAF50;
+}
+
+.froom-list {
+    list-style: none;
+    padding: 0;
+    max-height: 200px; /* Set a maximum height for the room list */
+    overflow-y: auto; /* Enable vertical scrollbar when the list exceeds the maximum height */
+}
+
+.froom-item {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.message-image{
+    height:250px;
+    width: 100%;
+}
+
+.froom-item:hover {
+    background-color: #45a049;
+}
+
+.fchat-messages {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-top: 20px;
+}
+
+.fmessage-item {
+    margin-bottom: 10px;
+}
+
+.fmessage-text {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}

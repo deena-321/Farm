@@ -1,0 +1,63 @@
+/* ProductUpload.css */
+
+.product-upload-container {
+    width: 350px;
+    margin-left: 400px;
+    padding: 20px; /* Reduced padding */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-group {
+    margin-bottom: 15px; /* Reduced margin */
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-bottom: 5px; /* Reduced margin */
+    display: block;
+    font-size: 18px;
+  }
+  
+  .input-field,
+  .textarea-field,
+  .file-input {
+    width: 100%;
+    padding: 10px; /* Reduced padding */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 5px; /* Reduced margin */
+    box-sizing: border-box;
+  }
+  
+  .textarea-field {
+    resize: vertical;
+  }
+  
+  .file-input {
+    margin-top: 5px; /* Reduced margin */
+  }
+  
+  .upload-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px; /* Reduced padding */
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+  }
+  
+  .upload-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add animation for button hover effect */
+  .upload-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2); /* Reduced box-shadow */
+  }

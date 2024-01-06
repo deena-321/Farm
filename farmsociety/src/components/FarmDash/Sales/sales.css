@@ -1,0 +1,66 @@
+/* SalesManagement.css */
+
+.sales-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.sales-container:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.product-table th, .product-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-weight: 400;
+}
+
+.product-table th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: 600;
+}
+
+.product-table tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.product-table tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.product-table tr:hover {
+    background-color: #f2f2f2;
+}
+
+.product-actions button {
+    background-color: #45a049;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.product-actions button:hover {
+    background-color: #4CAF50;
+    transform: scale(1.05);
+}
+
+.product-actions button:last-child {
+    margin-right: 0;
+}

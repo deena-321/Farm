@@ -1,0 +1,29 @@
+.image-container{
+    height: 100vh;
+}
+.image {
+    background-image: url('farm.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 10rem;
+    color: #fff;
+    
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.text {
+    text-align: center;
+    color:whitesmoke;
+    font-weight: 200px;
+}
+
+.photo-grid {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.photo-grid img {
+    width:300px;
+    margin: 0 10px;
+}

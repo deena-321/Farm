@@ -1,0 +1,79 @@
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  background: linear-gradient(30deg, #c3cbd7, #33df6f);
+  width: 250px;
+  color: #fff;
+  padding-left: 20px;
+  height: 100vh;
+  border-top-right-radius: 80px;
+}
+
+.nav-button {
+  font-size: 12px;
+  color: #fff;
+  background: none;
+  border: none;
+  padding: 12px;
+  padding-left: 30px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.nav-button:hover {
+  color: #3f5efb;
+  background: #fff;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.nav-button i {
+  margin-right: 5px;
+}
+
+.nav-button:hover::after {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  bottom: 100%;
+  right: 0;
+  height: 35px;
+  width: 35px;
+  border-bottom-right-radius: 18px;
+  box-shadow: 0 20px 0 0 #fff;
+}
+
+.nav-button:hover::before {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  top: 38px;
+  right: 0;
+  height: 35px;
+  width: 35px;
+  border-top-right-radius: 18px;
+  box-shadow: 0 -20px 0 0 #fff;
+}
+
+.farm-content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* Additional styles for the social icon */
+.social i:before {
+  width: 14px;
+  height: 14px;
+  font-size: 14px;
+  position: fixed;
+  color: #fff;
+  background: #0077B5;
+  padding: 10px;
+  border-radius: 50%;
+  top: 5px;
+  right: 5px;
+}

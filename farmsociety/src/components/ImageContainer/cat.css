@@ -1,0 +1,65 @@
+/* new-cat.css */
+
+.new-sales-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.new-search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.new-search-bar input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.new-search-bar select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.new-product-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.new-product-card {
+    flex: 1;
+    max-width: 200px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.new-product-card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.new-product-card p {
+    margin-bottom: 10px;
+}
+
+.chat-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.chat-button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,111 @@
+.AdminTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* Table header styles */
+.AdminTable th {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+/* Table row styles */
+.AdminTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Table cell styles */
+.AdminTable td {
+  padding: 12px;
+  vertical-align: middle;
+}
+
+/* Styles for images in table cells */
+.AdminImageColumn {
+  width: 100px;
+  height: 100px; /* Fixed width for image cells */
+}
+
+/* Styles for action buttons in table cells */
+.AdminButtonColumn .AdminButton {
+  margin-right: 10px;
+  padding: 8px 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.AdminTabs {
+  margin: 0 auto;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.AdminTabButton {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  cursor: pointer;
+  border-radius: 5px 5px 0 0;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-right: 20px;
+}
+
+.AdminTabButton.ActiveTab {
+  background-color:red;
+}
+
+/* Styles for Action Buttons */
+.AdminButtonColumn .AdminButton {
+  margin-right: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+/* Approve button styles */
+.ApproveButton {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+/* Delete button styles */
+.DeleteButton {
+  background-color: #f44336;
+  color: #fff;
+}
+
+/* Styles for the list */
+.AdminList {
+  list-style: none;
+  padding: 0;
+}
+
+/* Styles for action buttons in the list */
+.AdminList .AdminButton {
+  margin-left: 10px;
+  padding: 8px 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Hover effect for action buttons */
+.AdminButton:hover {
+  opacity: 0.8;
+}
